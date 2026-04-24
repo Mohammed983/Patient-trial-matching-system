@@ -1,4 +1,4 @@
-# Heterogenous-Graph-Learning-for-Patient-Trial-Recruitment
+# patient-trial-matching-system
 
 ## Overview
 Built a graph-based machine learning system to match patients with relevant clinical trials using real-world healthcare datasets. The system models relationships between patients, diseases, and trials to improve ranking quality over traditional keyword-based approaches.
@@ -41,7 +41,7 @@ EHR Data → Preprocessing → PubMedBERT Embeddings → Graph Construction → 
 ## Results
 - Evaluated using ranking metrics (NDCG@10, Precision@10)
 - HGT models achieved higher training AUROC compared to R-GCN, at the cost of increased computational overhead
-- Demonstrated the feasibility of graph-based approaches for patient-trial matching using structured relational data
+- Demonstrated end-to-end pipeline for patient–trial matching using graph-based learning
 
 ## Key Insights
 - Data preprocessing and dataset alignment had a significant impact on model performance
